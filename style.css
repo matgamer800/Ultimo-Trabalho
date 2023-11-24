@@ -224,6 +224,9 @@ dialog{
     box-shadow: 80px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-
+dialog a{
+    padding-top: 20px;
+    font-size: 40px;
+}
 
 /* Rodapé */

@@ -23,6 +23,10 @@ Alterações:
 
 10° Criei um forEach para criar a diferenciação de style dentro do dialog no script no index.html
 
+11° Aumentei a fonte do "a" dentro do dialog no css
+
+12° Passei o "a" de fechamento do dialog para ultimo dado apresentado dentro do dialog
+
 -->
 
 <!DOCTYPE html>
@@ -150,9 +154,10 @@ Alterações:
                             
                             Este contrato será regido e interpretado de acordo com as leis do Paraná. Quaisquer litígios decorrentes deste contrato serão submetidos à jurisdição exclusiva dos tribunais de Curitiba.
                             
-                            <br><a href="#">clique aqui para fechar</a>
-
                             <p>Contrato de Prestação de Serviços de Consultoria</p>  
+
+
+                            <br><a href="#">clique aqui para fechar</a>
                     </dialog>
                     <h2>Visão Geral</h2>
                     
@@ -280,9 +285,8 @@ Alterações:
         const p = document.querySelector("main section div div dialog p");
         const paragrafos = document.querySelectorAll("main section div div dialog p");
         const span = document.querySelector("main section div div dialog");
-
-
         
+
         paragrafos.forEach(par =>{
             par.style.color = "rgba(255, 225, 0, 1)";
             par.style.backgroundColor = "black"
