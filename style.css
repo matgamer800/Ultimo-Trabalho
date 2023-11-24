@@ -137,8 +137,10 @@ tr,th,td{
 /* Rodapé */
 
 footer{
+    padding-top: 100px;
     grid-area: footer;
     width: 100%;
+    background-color: rgb(172, 16, 16);
 }
 
 .rodape{
@@ -213,15 +215,18 @@ footer{
     justify-content: center;
     background-color: rgb(172, 16, 16);
     padding: 10px;
+    
     font-weight: 100;
     color: white;
 } 
 
 dialog{    
+    margin-bottom: 20px;
     width: 70%;
-    border: 0;
+    margin: 3px black;
     border-radius: 20px;
     box-shadow: 80px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #f7dbdb;
 }
 
 dialog a{
